@@ -1,0 +1,188 @@
+body {
+    padding: 15px 400px 0px 400px; /* Adjusted for tablets */
+    box-sizing: border-box;
+    background-color: rgb(105, 122, 122);
+    color: wheat;
+}
+
+.Weather {
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    border-radius: 20px;
+    height: 570px;
+    box-shadow: 4px 9px 30px 12px #191436;
+}
+
+.Search-Bar {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+.Search-Bar input {
+    width: 280px; /* Adjusted for tablets */
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+.Search-Bar img {
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.Whether-Report-DI {
+    margin-top: 40px;
+    display: block;
+    font-family: fira code;
+}
+
+.Whether-Report-DI img {
+    width: 120px;
+    height: 120px;
+}
+
+.Whether-Report-DI h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.HumWinSpeed {
+    padding: 20px 70px 0 70px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Mooli;
+}
+
+.HumWinSpeed h3 {
+    font-size: 25px;
+    margin-bottom: -1px;
+}
+
+.HumWinSpeed span {
+    font-size: 17px;
+}
+
+.Humidity-Container {
+    display: flex;
+}
+
+.Humidity-Container img {
+    width: 40px;
+    height: 40px;
+    margin-top: 29px;
+    padding-right: 20px;
+}
+
+.Wind-Container {
+    display: flex;
+}
+
+.Wind-Container img {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+    body {
+        padding: 10px 100px 0px 100px; /* Adjusted for tablets */
+    }
+
+    .Weather {
+        height: 600px;
+    }
+
+    .Search-Bar input {
+        width: 250px; /* Adjusted for tablets */
+        height: 40px;
+    }
+
+    .Search-Bar img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .HumWinSpeed {
+        padding: 20px 50px 0 50px; /* Adjusted for tablets */
+    }
+
+    .Humidity-Container img {
+        width: 30px; /* Adjusted for tablets */
+        height: 30px; /* Adjusted for tablets */
+        margin-top: 30px;
+        padding-right: 15px;
+    }
+
+    .Wind-Container img {
+        width: 35px; /* Adjusted for tablets */
+        height: 35px; /* Adjusted for tablets */
+        margin-top: 30px;
+        padding-right: 15px;
+    }
+
+    .HumWinSpeed h3 {
+        font-size: 22px; /* Adjusted for tablets */
+        margin-bottom: -1px;
+    }
+
+    .HumWinSpeed span {
+        font-size: 16px; /* Adjusted for tablets */
+    }
+}
+
+@media screen and (max-width: 765px) {
+    body {
+        padding: 10px;
+    }
+
+    .Weather {
+        height: 600px;
+    }
+
+    .Search-Bar input {
+        width: 190px;
+        height: 40px;
+    }
+
+    .Search-Bar img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .HumWinSpeed {
+        padding: 20px 30px 0 30px;
+    }
+
+    .Humidity-Container img {
+        width: 20px;
+        height: 20px;
+        margin-top: 35px;
+        padding-right: 10px;
+    }
+
+    .Wind-Container img {
+        width: 25px;
+        height: 25px;
+        margin-top: 25px;
+        padding-right: 10px;
+    }
+
+    .HumWinSpeed h3 {
+        font-size: 20px;
+        margin-bottom: -1px;
+    }
+
+    .HumWinSpeed span {
+        font-size: 14px;
+    }
+}
